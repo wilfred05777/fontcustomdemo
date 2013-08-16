@@ -1,0 +1,36 @@
+@import "../fonts/iconfont/iconfont";
+
+a {
+  display: block;
+  float: left;
+  clear: left;
+  padding: 10px;
+  margin: 30px;
+  font-size: 3em;
+  background: #ededed;
+  border-radius: 20px;
+  text-decoration: none;
+  color: inherit;
+  &:before {
+    padding-right: 15px;
+  }
+}
+
+.button1 {
+  @include icon-font(handlebars);
+}
+
+.button2 {
+  @include icon-font(monocle);
+}
+
+.button3 {
+  @include icon-font(mustache) {
+    //position: relative;
+    //top: 20px;
+  }
+}
+
+.button4 {
+
+}

@@ -1,0 +1,17 @@
+{
+  "fonts": [
+    "iconfont.ttf",
+    "iconfont.woff",
+    "iconfont.eot",
+    "iconfont.svg"
+  ],
+  "templates": [
+    "_iconfont.scss"
+  ],
+  "file_name": "iconfont",
+  "glyphs": [
+    "handlebars",
+    "monocle",
+    "mustache"
+  ]
+}
